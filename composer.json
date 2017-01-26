@@ -1,0 +1,13 @@
+{
+    "name": "MVT",
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "mockery/mockery": "^0.9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVT\\": "src/",
+            "MVT\\Test\\": "tests/"
+        }
+    }
+}
